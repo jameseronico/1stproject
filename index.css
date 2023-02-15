@@ -1,0 +1,56 @@
+.navbar-nav a {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	/* identical to box height */
+	color: #F2D2AE;
+}
+
+#nav {
+	background-color: #765C3D;
+}
+
+#landing {
+	background: 
+
+	linear-gradient(
+		rgba(0, 0, 0, 0.59),
+		rgba(0, 0, 0, 0.59)
+	),
+	url("./images/landing.png");
+	background-repeat: no repeat;
+	background-size: cover;
+}
+
+#title {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 72px;
+	/* or 112% */
+	color: #FFFFFF;
+}
+
+#subtitle {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	/* or 125% */
+	color: #FFFFFF;
+}
+
+#base {
+	/* Auto layout */
+	align-items: center;
+	padding: 12px 32px;
+	gap: 8px;
+	width: 180px;
+	height: 48px;
+	background: #B59066;
+	border-radius: 100%;
+}
