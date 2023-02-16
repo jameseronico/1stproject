@@ -87,7 +87,77 @@ main p {
 	background-size: cover;*/
 }
 
-#footer {
+#pre-footer {
+	background: #FFF2E4;
+}
 
+
+#contact {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 49px;
+	color: #765C3D;
+}
+
+#contact-subtitle {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 29px;
+	color: #765C3D;
+}
+
+article label {
+	color: #B59066;
+} 
+
+
+#fullname {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+
+	color: #765C3D !important;
+}	
+
+#Email {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	color: #765C3D !important;
+}
+
+
+#button {
+	padding: 5px 5px;
+/*	gap: 5px;*/
+	width: 100px;
+/*	height: 48px;*/
+	background: #B59066;
+	border-radius: 999px;
+	border-color: #B59066;
+}
+
+
+#footer {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	/* identical to box height */
+	text-align: center;
+	color: #FFF2E4;
 	background: #B59066;
 }
