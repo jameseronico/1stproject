@@ -73,3 +73,21 @@ main p {
 /*	text-align: center;*/
 	color: #765C3D;
 }
+
+#last {
+	background:  
+
+	linear-gradient( 
+		rgba(0, 0, 0, 0.59),
+		rgba(0, 0, 0, 0.59)
+
+	)/*,
+	url("./images/10.png")*/;
+	/*background-repeat: no-repeat;
+	background-size: cover;*/
+}
+
+#footer {
+
+	background: #B59066;
+}
