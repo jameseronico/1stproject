@@ -45,12 +45,31 @@
 }
 
 #base {
-	/* Auto layout */
-	align-items: center;
 	padding: 12px 32px;
-	gap: 8px;
-	width: 180px;
-	height: 48px;
 	background: #B59066;
-	border-radius: 100%;
+	border-radius: 999px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+#gallery {
+	color: #765C3D;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	text-align: center;
+}
+
+main p {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+/*	line-height: 29px;*/
+/*	text-align: center;*/
+	color: #765C3D;
 }
