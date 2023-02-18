@@ -19,7 +19,7 @@
 		<div id="landing">
 
 			<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="nav">
-				<div class="container">
+				<div class="container-fluid">
 					  <a class="navbar-brand" href="#" id="logo"><img src="./images/Logo.png"></a>
 					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 					    <span class="navbar-toggler-icon"></span>
@@ -74,13 +74,13 @@
 				<div class="col-lg-4 col-md-4 col-sm-12 pt-2">
 					<img src="./images/6.png" class="img-fluid" width="300" height="500">
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 pt-2 pb-5 mb-5">
+				<div class="col-lg-4 col-md-4 col-sm-12 pt-2 pb-md-5 mb-md-5">
 					<img src="./images/7.png" class="img-fluid" width="300" height="500">
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 pt-2 pb-5 mb-5">
+				<div class="col-lg-4 col-md-4 col-sm-12 pt-2 pb-md-5 mb-md-5">
 					<img src="./images/8.png" class="img-fluid" width="300" height="500">
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 pt-2 pb-5 mb-5">
+				<div class="col-lg-4 col-md-4 col-sm-12 pt-2 pb-md-5 mb-md-5">
 					<img src="./images/9.png" class="img-fluid" width="300" height="300">
 				</div>
 
@@ -89,16 +89,16 @@
 		<!-- End of Gallery -->
 
 		<!-- pre-footer -->
-		<article id="pre-footer" class="container pb-5">
+		<article class="container-fluid pb-5" id="pre-footer">
 			<div class="row">
-				<div class="d-none col-6 d-flex flex-column" id="last">
-				<img src="./images/10.png" class="img-fluid">
+				<div class="col-6" id="last">
+				<!-- <img src="./images/10.png" class="img-fluid"> -->
 	        	</div>
-	        	<div class="ml-5 pt-5 mt-5 pl-3 col-sm-12 col-md-5">
+	        	<div class="ml-sm-0 ml-md-4 pt-5 mt-5 pl-3 col-sm-12 col-md-5">
 	        		<h3 id="contact">CONTACT US</h3>
 	        		<p id="contact-subtitle" class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
 	          		<form class="d-flex flex-column">
-			            <label for="Name">Name</label>
+			            <label for="name">Name</label>
 			            <input type="text" name="fullname" id="fullname" placeholder="John Doe" />
 
 			            <label for="Email">Email Address</label>
@@ -112,8 +112,8 @@
 			            ></textarea>
 
 			            <button id="button"
-			              type="button"	class="text-light mt-4 ml-auto
-			              ">
+			              type="submit" value="submit" 	class="text-light mt-4 ml-auto
+			              " target="_blank">
 			              Submit
 			            </button>
 		          	</form>
@@ -127,6 +127,7 @@
 			2023 | All rights reserved.
 		</footer>
 		<!-- end of footer -->
+
 
 
 		<!-- bootstrap Js -->

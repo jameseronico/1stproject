@@ -74,18 +74,14 @@ main p {
 	color: #765C3D;
 }
 
+
 #last {
-	background:  
-
-	linear-gradient( 
+	background-image: linear-gradient(
 		rgba(0, 0, 0, 0.59),
-		rgba(0, 0, 0, 0.59)
-
-	)/*,
-	url("./images/10.png")*/;
-	/*background-repeat: no-repeat;
-	background-size: cover;*/
+		rgba(0, 0, 0, 0.59)),	
+		url("./images/10.png");
 }
+
 
 #pre-footer {
 	background: #FFF2E4;
